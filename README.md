@@ -9,7 +9,7 @@
 ### Overview
 This repository contains **all homework (hw)**, **labs**, and **projects** for the UC Berkeley CS61A course. It is designed to facilitate practice and improve your understanding of the material.
 
-You can fork this repository to create your own working environment, track your progress, and store your solutions. 
+You can fork this repository to create your own working environment, track your progress, and store your solutions. For reference and study, you can also access the [**CS61A website archive**](https://insideempire.github.io/CS61A-Website-Archive/) mirrored here.
 
 ### Features
 - **Homework (hw):** Reinforce lecture topics with conceptual and coding exercises.
@@ -62,7 +62,8 @@ Replace `<file_name>` with the name of the specific file you want to test.
 ## 中文说明
 
 ### 项目简介
-本仓库包含了 UC Berkeley CS61A 课程的所有 **家庭作业 (hw)**、**实验 (labs)** 和 **项目 (projects)**。通过 Fork 本仓库，您可以创建自己的工作环境，跟踪学习进度并保存作业的解答。
+本仓库包含了 UC Berkeley CS61A 课程的所有 **家庭作业 (hw)**、**实验 (labs)** 和 **项目 (projects)**。通过 Fork 本仓库，您可以创建自己的工作环境，跟踪学习进度并保存作业的解答。同时，您还可以访问我们提供的 [**CS61A 网站镜像**](https://insideempire.github.io/CS61A-Website-Archive/)，用于参考和学习。
+
 
 ### 功能特色
 - **家庭作业 (hw)：** 巩固课程讲解内容，包含概念和代码练习。
@@ -109,5 +110,4 @@ python3 ok -q <file_name> --local
 ### 免责声明
 - 本仓库为 **非官方** 项目，与 UC Berkeley 及 CS61A 教学团队无关。
 - 所有课程内容版权归 UC Berkeley CS61A 团队所有，仅供 **个人学习和练习** 使用，请遵守学术诚信规定。
-
----
+  

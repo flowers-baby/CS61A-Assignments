@@ -13,10 +13,12 @@ def a_plus_abs_b(a, b):
     3
     """
     if b < 0:
-        f = _____
+        f = lambda x, y: x - y  # 如果 b 是负数，f(a, b) = a - b
     else:
-        f = _____
+        f = lambda x, y: x + y  # 如果 b 是正数，f(a, b) = a + b
     return f(a, b)
+
+
 
 def a_plus_abs_b_syntax_check():
     """Check that you didn't change the return statement of a_plus_abs_b.
@@ -42,7 +44,7 @@ def two_of_three(i, j, k):
     >>> two_of_three(5, 5, 5)
     50
     """
-    return _____
+    return min(i*i + j*j, i*i + k*k, j*j + k*k)
 
 def two_of_three_syntax_check():
     """Check that your two_of_three code consists of nothing but a return statement.
@@ -66,6 +68,10 @@ def largest_factor(n):
     1
     """
     "*** YOUR CODE HERE ***"
+    for i in range(n - 1, 0, -1):
+        if n % i == 0:
+            return i
+
 
 
 def hailstone(n):
@@ -88,4 +94,14 @@ def hailstone(n):
     1
     """
     "*** YOUR CODE HERE ***"
+    length=1
+    while n!=1:
+        print(n)
+        if(n%2==0):
+            n=n//2
+        else:
+            n=3*n+1
+        length+=1
+    print(n)
+    return length
 
